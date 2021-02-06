@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+
+.home-services {
+  padding: 100px 0 84px;
+  background: #ffff;
+}
+
+.container-text {
+  text-align: center;
+}
+h2 {
+  opacity: 0.7;
+  font-family: "Playfair Display", serif;
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background:linear-gradient(#9CB3FF,#B0FFE9) ;
+    clip-path: circle(50% at 50% 50%);
+}
+.el{
+    clip-path: url(#a)
+}

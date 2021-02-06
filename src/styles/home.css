@@ -5,7 +5,7 @@
     position: relative;
     overflow-x: hidden;
     min-height: 100vh;
-    
+    background-image: linear-gradient(to top right,#450b7c,#563cc9,#49e9fb)
 }
 
 .capa1{

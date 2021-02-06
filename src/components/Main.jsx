@@ -6,7 +6,6 @@ import hero2 from "../images/hero-guy-2.png";
 import hero3 from "../images/hero-guy-3.png";
 import hero4 from "../images/hero-guy-1.png";
 import Btn from "./BtnContact.jsx";
-import SectionTools from "./SectionTools.jsx";
 import "../styles/main.css";
 
 
@@ -42,7 +41,6 @@ function Main() {
           <img className="hero-cover" src={hero4} alt="hero4" />
         </Col>
       </Row>
-		  <SectionTools/>
     </Fragment>
   );
 }

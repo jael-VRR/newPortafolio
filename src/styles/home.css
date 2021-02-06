@@ -1,0 +1,16 @@
+.col{
+    border: solid 1px;
+}
+.app {
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+    
+}
+
+.capa1{
+    position:absolute; 
+    z-index:0;
+}
+
+

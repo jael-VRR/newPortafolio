@@ -1,0 +1,39 @@
+.hero-overlay {
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero-image {
+  width: 150px;
+  height: 130px;
+}
+.hero-image2 {
+  right: 350px;
+  width: 92px;
+  position: absolute;
+  z-index: 1;
+}
+
+.hero-cover {
+  display: block;
+  z-index: 1;
+  width: 100vw;
+}
+.hero-container {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  color: #ffff;
+}
+.wrapper-button {
+  bottom: calc(100vh - 70px);
+  left: calc(50% - 110px);
+  width: 220px;
+  margin: 0 auto;
+  padding: 0;
+  transition: all 0.5s ease-in-out;
+  visibility: visible;
+  overflow-x: hidden;
+  transform: translateZ(0);
+}
+

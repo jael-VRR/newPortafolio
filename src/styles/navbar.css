@@ -6,7 +6,7 @@
 }
 .wrapper-navbar {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   text-align: center;
   /*border: solid 1px;*/
 }

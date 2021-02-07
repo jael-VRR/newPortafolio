@@ -10,7 +10,7 @@ function Home() {
   return (
     <Container className="app">
       <div className="capa1">
-        <img src={cover1} alt="cover1" />
+        <img  className="cover" src={cover1} alt="cover1" />
       </div>
       <header>
         <Navbar />

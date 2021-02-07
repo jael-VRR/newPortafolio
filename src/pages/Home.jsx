@@ -19,6 +19,21 @@ function Home() {
       <div>
         <SelectionTools />
       </div>
+      <div>
+        <SelectionTools />
+      </div>
+      <div>
+        <SelectionTools />
+      </div>
+      <div>
+        <SelectionTools />
+      </div>
+      <div>
+        <SelectionTools />
+      </div>
+      <div>
+        <SelectionTools />
+      </div>
     </Container>
   );
 }

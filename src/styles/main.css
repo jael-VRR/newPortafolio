@@ -11,12 +11,12 @@
   right: 350px;
   width: 92px;
   position: absolute;
-  z-index: 1;
+  z-index: 20;
 }
 
 .hero-cover {
   display: block;
-  z-index: 1;
+  z-index: 20;
   width: 100vw;
 }
 .hero-container {

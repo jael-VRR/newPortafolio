@@ -12,3 +12,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body:after, body:before {
+  content: "";
+  display: block;
+  position: fixed;
+}
+body:before {
+  background: linear-gradient(
+135deg
+, #fafafa, #fdfdfd);
+  width: 200vw;
+  height: 100vw;
+  right: -140vw;
+  top: -50vw;
+  transform: translateZ(0) rotate(
+-45deg
+);
+  z-index: -1;
+}

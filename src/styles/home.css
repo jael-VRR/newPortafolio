@@ -4,6 +4,8 @@
 .app {
   position: relative;
   min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
   background-image: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);
 }
 

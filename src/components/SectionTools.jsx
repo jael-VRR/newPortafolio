@@ -10,6 +10,18 @@ function SectionTools() {
           <div className="container-text">
             <h2>What We Do</h2>
           </div>
+
+          <Row className="wrapper-circle">
+            <div className="circle">hola</div>
+            <div className="circle">hola</div>
+            <div className="circle">hola</div>
+          </Row>
+
+          <Row className="wrapper-circle">
+            <div className="circle">hola</div>
+            <div className="circle">hola</div>
+            <div className="circle">hola</div>
+          </Row>
         </Col>
       </Row>
     </Fragment>

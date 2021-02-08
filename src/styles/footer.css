@@ -1,0 +1,30 @@
+
+.capa2 {
+    position: relative;
+    z-index: 25;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 600px;
+   
+  }
+  .default{
+    display: block;
+    width: 100%;
+  }
+  .default1{
+    display: none;
+    vertical-align: middle;
+    border-style: none;
+    width: 100%;
+  }
+ 
+  .cover2 {
+    position: relative;
+    z-index: 30;
+  }
+  .footer-text{
+      border: 1px solid white;
+      align-items: center;
+      
+  }

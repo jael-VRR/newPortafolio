@@ -16,9 +16,9 @@ function SectionTools() {
             <div className="circle3">c</div>
           </Row>
           <Row className="wrapper-circle">
-            <div className="circle4">hola</div>
-            <div className="circle5">hola</div>
-            <div className="circle6">hola</div>
+            <div className="circle4">d</div>
+            <div className="circle5">e</div>
+            <div className="circle6">f</div>
           </Row>
         </Col>
       </Row>

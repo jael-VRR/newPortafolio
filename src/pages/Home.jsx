@@ -16,9 +16,9 @@ function Home() {
         <Navbar />
         <Main />
       </header>
-      <div>
+      <section>
         <SelectionTools />
-      </div>
+      </section>
       <div>
         <SelectionTools />
       </div>

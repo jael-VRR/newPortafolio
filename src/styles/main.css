@@ -6,8 +6,6 @@
   align-items: center;
   width: 150px;
   height: 130px;
-  
-  
 }
 
 .hero-container {
@@ -42,7 +40,7 @@
   right: 280px;
   width: 92px;
   z-index: 20;
-  transform-style: preserve-3d;
+ 
 }
 
 .hero-cover {

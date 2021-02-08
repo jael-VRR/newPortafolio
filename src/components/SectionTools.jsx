@@ -10,17 +10,15 @@ function SectionTools() {
           <div className="container-text">
             <h2>What We Do</h2>
           </div>
-
           <Row className="wrapper-circle">
-            <div className="circle">hola</div>
-            <div className="circle">hola</div>
-            <div className="circle">hola</div>
+            <div className="circle1">a</div>
+            <div className="circle2">b</div>
+            <div className="circle3">c</div>
           </Row>
-
           <Row className="wrapper-circle">
-            <div className="circle">hola</div>
-            <div className="circle">hola</div>
-            <div className="circle">hola</div>
+            <div className="circle4">hola</div>
+            <div className="circle5">hola</div>
+            <div className="circle6">hola</div>
           </Row>
         </Col>
       </Row>

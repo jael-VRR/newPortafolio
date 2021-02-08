@@ -30,6 +30,10 @@
     background:linear-gradient(#9CB3FF,#B0FFE9) ;
     clip-path: circle(50% at 50% 50%);
 }
+#circle1{
+  background:linear-gradient(#9CB3FF,#B0FFE9) ;
+
+}
 .circle2{
   width: 80px;
   height: 80px;
@@ -60,10 +64,6 @@
   height: 80px;
   background:linear-gradient(#59DBB0,#FEFFB5) ;
   clip-path: circle(50% at 50% 50%);
-}
-
-.el{
-    clip-path: url(#a)
 }
 
 @media (min-width: 768px){

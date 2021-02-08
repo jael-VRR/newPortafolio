@@ -5,6 +5,8 @@ import cover1 from "../images/hero-pattern-bg.png";
 import Navbar from "../components/Navbar";
 import Main from "../components/Main";
 import SelectionTools from "../components/SectionTools.jsx";
+import Projects from "../components/Projects.jsx";
+import Footer from "../components/Footer.jsx";
 
 function Home() {
   return (
@@ -18,22 +20,12 @@ function Home() {
       </header>
       <section>
         <SelectionTools />
+        <Projects/>
       </section>
-      <div>
-        <SelectionTools />
-      </div>
-      <div>
-        <SelectionTools />
-      </div>
-      <div>
-        <SelectionTools />
-      </div>
-      <div>
-        <SelectionTools />
-      </div>
-      <div>
-        <SelectionTools />
-      </div>
+      <footer>
+        <Footer/>
+      </footer>
+      
     </Container>
   );
 }

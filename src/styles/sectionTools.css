@@ -8,10 +8,14 @@
 .container-text {
   text-align: center;
 }
-h2 {
-  opacity: 0.7;
-  font-family: "Playfair Display", serif;
+
+  h2 {
+    font-size: 50px;
+    line-height: 1.06;
+    letter-spacing: 1.88px;
+    opacity: 1;
 }
+
 
 .wrapper-circle{
   display: flex;
@@ -20,14 +24,53 @@ h2 {
   align-items: center;
 
 }
-.circle{
+.circle1{
     width: 80px;
     height: 80px;
     background:linear-gradient(#9CB3FF,#B0FFE9) ;
     clip-path: circle(50% at 50% 50%);
-    
-   
 }
+.circle2{
+  width: 80px;
+  height: 80px;
+  background:linear-gradient(#E7D1FF,#8383EF) ;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.circle3{
+  width: 80px;
+  height: 80px;
+  background:linear-gradient(#FF8989,#FFDDC5) ;
+  clip-path: circle(50% at 50% 50%);
+}
+.circle4{
+  width: 80px;
+  height: 80px;
+  background:linear-gradient(#FFA8E8,#FFE6E6) ;
+  clip-path: circle(50% at 50% 50%);
+}
+.circle5{
+  width: 80px;
+  height: 80px;
+  background:linear-gradient(#FFAF73,#FFFECC) ;
+  clip-path: circle(50% at 50% 50%);
+}
+.circle6{
+  width: 80px;
+  height: 80px;
+  background:linear-gradient(#59DBB0,#FEFFB5) ;
+  clip-path: circle(50% at 50% 50%);
+}
+
 .el{
     clip-path: url(#a)
+}
+
+@media (min-width: 768px){
+  h2 {
+    font-size: 50px;
+    line-height: 1.06;
+    letter-spacing: 1.88px;
+    opacity: 1;
+}
 }

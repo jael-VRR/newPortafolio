@@ -26,14 +26,14 @@ function Main() {
       </Row>
       <Row className="hero-container">
         <Col>
-          <h1>I'AM JAEL RODRÍGUEZ</h1>
+          <h1>We Are Paperpillar</h1>
           <p>Front end Developer</p>
 					<div  className="wrapper-button">
           <Btn/>
 					</div>
         </Col>
       </Row>
-      <Row >
+      <Row className="hero2-container" >
         <Col>
           <Figure>
             <Figure.Image className="hero-image2" src={hero3} alt="hero1" />

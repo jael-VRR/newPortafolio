@@ -4,7 +4,10 @@
   min-height: 100vh;
   overflow-x: hidden;
   overflow-y: hidden;
-  background-image: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);
+  /*background-image: linear-gradient(to top right, #450b7c, #563cc9, #49e9fb);*/
+  background-image: linear-gradient(to right top, #c04de2, #ae49de, #9b46da, #8843d5, #7440d0, #5d55de, #3f66e8, #0075f0, #0097ff, #00b5ff, #00d0ff, #49e9fb);
+  /*background-image: radial-gradient(circle at 104.17% 95.45%, #ff8a63 0, #ff7d66 10%, #ff706a 20%, #fd616e 30%, #f95073 40%, #f23c78 50%, #e9267f 60%, #df0787 70%, #d30091 80%, #c4009c 90%, #b300a8 100%);*/
+  /* background-image: radial-gradient(circle at 20.12% -14.09%, #ff8a63 0, #ff7d66 10%, #ff706a 20%, #fd616e 30%, #f95073 40%, #f23c78 50%, #e9267f 60%, #df0787 70%, #d30091 80%, #c4009c 90%, #b300a8 100%);*/
 }
 
 .capa1 {

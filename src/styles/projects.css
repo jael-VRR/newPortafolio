@@ -1,23 +1,11 @@
 .home-projects{
     padding: 100px 0 84px;
     background: #fff;
+    border: 1px solid red;
 }
-.container-text {
-    text-align: center;
-  }
-.container-projects{
-    display: flex;
-    justify-content: center;
-}
-.container-card{
-    border: 1px solid black;
-    
-    margin: 10px;
-    width: 400px;
-    height: 500px;
-    text-align: center;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 70px 140px 0 rgb(130 136 171 / 20%)
+.wrap{
+    border: 1px solid red;
 
 }
+
+

@@ -1,4 +1,8 @@
-.btn {
+
+.button-main{
+  background-color: #ffff;
+  color: transparent;
+  transition: all .5s ease-in-out;
   height: 50px;
   padding: 16px 32px;
   font-family: "Paperpillar", sans-serif;
@@ -11,11 +15,8 @@
   border-radius: 25px;
   cursor: pointer;
 }
-.btn-primary {
-  background-color: #ffff;
-  color: transparent;
-  transition: all .5s ease-in-out;
-}
+
+
 
 a {
   text-decoration: none;

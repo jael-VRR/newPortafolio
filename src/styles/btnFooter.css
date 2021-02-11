@@ -1,6 +1,11 @@
-.btn-footer{
+
+  .btn-final{
+    
+    color: transparent;
+    transition: all .5s ease-in-out;
+    background: #ef4b6c;
     height: 50px;
-    padding: 36px 32px;
+    padding: 16px 32px;
     font-family: "Paperpillar", sans-serif;
     font-weight: 900;
     font-size: 0.688rem;
@@ -10,14 +15,6 @@
     border: none;
     border-radius: 25px;
     cursor: pointer;
-    
-    
-  }
-  .btn-primary {
-    
-    color: transparent;
-    transition: all .5s ease-in-out;
-    background: #ef4b6c;
    
   }
   

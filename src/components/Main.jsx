@@ -26,8 +26,8 @@ function Main() {
       </Row>
       <Row className="hero-container">
         <Col>
-          <h1>We Are Paperpillar</h1>
-          <p>Front end Developer</p>
+          <h1>¡Hola! Soy Jael Rodríguez</h1>
+          <p className="hero-text">Front end Developer</p>
 					<div  className="wrapper-button">
           <Btn/>
 					</div>

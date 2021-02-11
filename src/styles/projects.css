@@ -27,10 +27,24 @@
   text-align: center;
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 70px 140px 0 rgb(130 136 171 / 20%);
+  box-shadow: 0 70px 140px 0 rgb(130 136 171 / 30%);
   margin-top: 100px;
 }
-.content {
+
+.right:after ,.right1:before{
+  width: 100%;
+  height: 100%;
+  content: "";
+  position: absolute;
+  z-index: 30;
+  top: 0;
+  right: 0;
+  background-image: url('../images/work-pattern.png');
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
+.content, .content1{
   display: flex;
   justify-content: row;
 }
@@ -40,27 +54,79 @@
   text-align: center;
   width: 100%;
   align-items: center;
-  
 }
+.text-project {
+  margin-bottom: 30px;
+}
+
+.right img ,.right1 img{
+  position: relative;
+  z-index: 35;
+} 
+.button1{
+  background-image: linear-gradient(135deg, #72e9f3 -20%, #404de6 120%);
+  box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+  height: 50px;
+  padding: 16px 32px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 0.688rem;
+  line-height: 18px;
+  letter-spacing: 1.54px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: #ffffff;
+  z-index: 40px;
+}
+.button2 {
+  background-image: linear-gradient(225deg, #1ad4bb, #b2de94);
+  box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+  height: 50px;
+  padding: 16px 32px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 0.688rem;
+  line-height: 18px;
+  letter-spacing: 1.54px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: #ffffff;
+  z-index: 40px;
+}
+.button3{
+  background-image: linear-gradient(135deg, #8254e5, #83afe3 150%);
+  box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
+  height: 50px;
+  padding: 16px 32px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 700;
+  font-size: 0.688rem;
+  line-height: 18px;
+  letter-spacing: 1.54px;
+  text-transform: uppercase;
+  border-radius: 25px;
+  color: #ffffff;
+  z-index: 40px;
+}
+
 .right {
   display: flex;
   justify-content: center;
+  z-index: 35;
   background-image: linear-gradient(150deg, #c99fff -20%, #4a4eff);
   width: 100%;
   border-radius: 10px;
   align-items: center;
 }
 .right1 {
+  display: flex;
+  justify-content: center;
   width: 100%;
   border-radius: 10px;
   background-image: linear-gradient(225deg, #0abac2, #b2de94);
+  align-items: center;
 }
-.title {
-  margin-top: 30px;
-}
-.title h3 {
-  color: black;
-}
+
 
 @media (max-width: 1024px) {
   .content {
@@ -70,5 +136,18 @@
 @media (min-width: 992px) {
   .left {
     min-height: 455px;
+  }
+}
+
+@media (max-width: 768px) {
+  .button-project {
+    width: auto;
+    min-width: 120px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .content1 {
+    flex-direction: column-reverse;
   }
 }

@@ -7,25 +7,26 @@ import Main from "../components/Main";
 import SelectionTools from "../components/SectionTools.jsx";
 import Projects from "../components/Projects.jsx";
 import Footer from "../components/Footer.jsx";
+import AboutMe from "../components/AboutMe";
 
 function Home() {
   return (
     <Container className="app">
       <div className="capa1">
-        <img  className="cover" src={cover1} alt="cover1" />
+        <img className="cover" src={cover1} alt="cover1" />
       </div>
       <header>
         <Navbar />
         <Main />
       </header>
       <section>
+        <AboutMe />
         <SelectionTools />
-        <Projects/>
+        <Projects />
       </section>
       <footer>
-        <Footer/>
+        <Footer />
       </footer>
-      
     </Container>
   );
 }

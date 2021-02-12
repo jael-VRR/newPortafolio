@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Row, Col } from "react-bootstrap";
 import "../styles/sectionTools.css";
 
+
 function SectionTools() {
   return (
     <Fragment>
@@ -11,9 +12,13 @@ function SectionTools() {
             <h2>Habilidades</h2>
           </div>
           <Row className="wrapper-circle">
-            <div>
+            <div className="icon-mask">
+   
+
+           
               <div className="circle1">
                 <div className="social1-icon">
+                
                   <i className="fab fa-js-square"></i>
                 </div>
               </div>

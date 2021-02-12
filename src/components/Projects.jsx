@@ -13,9 +13,13 @@ function Projects() {
     <Fragment>
       <div className="home-projects">
         <div className="home-container">
+          <h2>Mis proyectos</h2>
           <div className="projects-section">
-            <div className="section-title">
-              <h2>Mis proyectos</h2>
+              <div className="section-title" >
+              
+              </div>
+            <div >
+            
               <div className="works-container">
                 <Row className="content">
                   <div className="left">

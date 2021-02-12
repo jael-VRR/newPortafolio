@@ -13,14 +13,7 @@ function AboutMe() {
             </div>
             <div className="wrapper-text">
               <p className="text-info">
-                Tengo más de una década de experiencia en proyectos digitales
-                trabajando para grandes y pequeñas empresas. Diseño estrategias
-                de contenidos e interacciones claves en productos y servicios
-                digitales; creo los prototipos para probar esos diseños y
-                estrategias con usuarios y también desarrollo sitios web en base
-                a lo anterior. Utilizo Design Thinking, Lean Startup y
-                Metodologías Ágiles en mis proyectos para optimizar el proceso
-                de innovación. Mi formación profesional es de Administradora,
+                 Mi formación profesional es de Administradora,
                  y mi especialización en el mundo de la
                 tecnología es Front End Developer egresada de Laboratoria
                 . Me encanta

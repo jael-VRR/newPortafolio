@@ -1,14 +1,10 @@
 .home-projects {
-  padding: 0 0 120px;
-  background: #ffffff;
-  border: 1px solid white;
+  padding: 100px 0 84px;
+  background: #ffff;
+  
 }
-.home.container {
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+.home-container{
+  text-align: center;
 }
 .projects-section {
   position: relative;
@@ -16,9 +12,25 @@
   z-index: 30;
   max-width: 940px;
   margin: 0 auto;
+  
 }
 .section-title {
   text-align: center;
+  position: relative;
+  padding: 0 0 20px;
+  text-align: center;
+}
+.section-title:before {
+  width: 40px;
+  height: 2px;
+  content: "";
+  position: absolute;
+  bottom: 20;
+  top:10;
+  left: 50%;
+  background-color: #ef4b6c;
+  transform: translateX(-50%);
+  z-index: 30;
 }
 .works-container {
   position: relative;
@@ -31,7 +43,8 @@
   margin-top: 100px;
 }
 
-.right:after ,.right1:before{
+.right:after,
+.right1:before {
   width: 100%;
   height: 100%;
   content: "";
@@ -39,12 +52,13 @@
   z-index: 30;
   top: 0;
   right: 0;
-  background-image: url('../images/work-pattern.png');
+  background-image: url("../images/work-pattern.png");
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
 }
-.content, .content1{
+.content,
+.content1 {
   display: flex;
   justify-content: row;
 }
@@ -59,11 +73,12 @@
   margin-bottom: 30px;
 }
 
-.right img ,.right1 img{
+.right img,
+.right1 img {
   position: relative;
   z-index: 35;
-} 
-.button1{
+}
+.button1 {
   background-image: linear-gradient(135deg, #72e9f3 -20%, #404de6 120%);
   box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
   height: 50px;
@@ -93,7 +108,7 @@
   color: #ffffff;
   z-index: 40px;
 }
-.button3{
+.button3 {
   background-image: linear-gradient(135deg, #8254e5, #83afe3 150%);
   box-shadow: 0 11px 36px 0 rgb(70 89 138 / 25%);
   height: 50px;
@@ -126,7 +141,6 @@
   background-image: linear-gradient(225deg, #0abac2, #b2de94);
   align-items: center;
 }
-
 
 @media (max-width: 1024px) {
   .content {

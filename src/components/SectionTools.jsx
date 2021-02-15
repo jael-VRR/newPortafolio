@@ -16,7 +16,7 @@ function SectionTools() {
         <div className="square">
 
           
-          <svg height="0" width="0">
+          <svg height="200px" width="200px">
             <defs>
               <clipPath id="svgPath">
                 <path

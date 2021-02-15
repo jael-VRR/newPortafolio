@@ -35,6 +35,45 @@ h2 {
   margin-top: 40px;
   align-items: center;
 }
+
+.wrapper-square{
+  width: 180px;
+  height: 180px;
+  background-color: black;
+}
+.wrapper:before{
+  width: 40px;
+  height: 40px;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+ 
+  transform: translateX(-50%);
+  
+
+}
+.wrapper-square {
+  clip-path: url(#svgPath);
+  animation: roll 20s infinite;
+  
+}
+#uiRect1{
+  animation: roll 40s infinite;
+
+}
+#uiRect2{
+  animation: roll 45s infinite;
+
+}
+#uiRect1{
+  animation: roll 40s infinite;
+
+}
+#uiRect2{
+  animation: roll 45s infinite;
+
+}
 .circle1 {
   display: flex;
   justify-content: center;
@@ -120,5 +159,13 @@ h2 {
     line-height: 1.06;
     letter-spacing: 1.88px;
     opacity: 1;
+  }
+}
+@keyframes roll {
+  0% {
+    transform: rotate(10);
+  }
+  100% {
+    transform: rotate(360deg) ;
   }
 }
